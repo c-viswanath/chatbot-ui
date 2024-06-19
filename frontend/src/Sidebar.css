@@ -1,0 +1,37 @@
+.Sidebar {
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: rgba(48, 46, 46, 0.574);
+    padding :25px;
+    margin-bottom: 20px;
+    border :1px solid cornsilk;
+    border-radius: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="file"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

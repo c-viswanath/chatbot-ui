@@ -1,0 +1,40 @@
+.message-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden; /* Prevent content from spilling out */
+  resize: none; /* Disable manual resizing */
+  width: 75%;
+  max-height: 150px; /* Maximum height for the textarea */
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.send-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.send-button:hover {
+  background-color:#1a64ba;
+  
+}
+
+  
